@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .cardHeader {
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5616AQFqxMdGq8IR8w/profile-displaybackgroundimage-shrink_200_800/0/1554106777586?e=1661385600&v=beta&t=q3gmxLITs7TofQ-L1cnZSZ47Ve4bQam9GaCv_hpqRS4);
+    min-height: 200px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+  .opacity {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffaa;
+    z-index: 2;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 104px;
+    margin-top: -100px;
+    z-index: 3;
+    position: relative;
+    object-fit: cover;
+    border:solid 5px white;
+  }
+}
+
+a {
+  color: #0b0089;
+  text-decoration: none;
+}

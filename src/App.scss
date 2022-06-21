@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firefox */
+  -webkit-box-sizing: border-box; /* Safari */
+}
+.App {
+  background-color: #f3f2ef;
+  .card {
+    margin: 2rem auto;
+    width: 600px;
+    border-radius: 1.5rem;
+    background-color: rgba(240, 248, 255, 0.241);
+    background-color: white;
+    border: solid 1px #ddd;
+    h2 {
+      margin: 0 20px;
+      font-size: 24px;
+    }
+    p {
+      margin: 1rem 20px;
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    nav {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      gap: 2rem;
+      border-bottom: 1px solid #ddd;
+      button:hover {
+        cursor: pointer;
+      }
+    }
+    button {
+      border: none;
+      margin: 1rem;
+      font-size: 1rem;
+      background-color: transparent;
+    }
+  }
+  .eduexp {
+  }
+}
