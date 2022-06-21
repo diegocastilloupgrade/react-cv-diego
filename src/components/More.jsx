@@ -10,23 +10,23 @@ const More = ({ languages, habilities, volunteer }) => {
     if (showMore === 'languages') {
       return (
         <>
-          <h2>Languages</h2>
+          <h3>Languages</h3>
           <div key='languages'>
-            <p>languages {languages.language}</p>
-            <p>{languages.wrlevel}</p>
-            <p>{languages.splevel}</p>
+            <p>Language: {languages.language}</p>
+            <p>Writing level: {languages.wrlevel}</p>
+            <p>Speaking level: {languages.splevel}</p>
           </div>
         </>
       );
     } else if (showMore === 'habilities') {
       return (
         <div className='habilities'>
-          <h2>Habilities</h2>
+          <h3>Habilities</h3>
           <ul>
             {habilities.map((item) => {
               return (
                 <li>
-                  <p className='hability'>📕 {item}</p>
+                  <p className='hability'>{item}</p>
                 </li>
               );
             })}
@@ -37,14 +37,14 @@ const More = ({ languages, habilities, volunteer }) => {
       console.log('entramos en volunteer');
       return (
         <div className='volunteer'>
-          <h2>Volunteer</h2>
+          <h3>Volunteer</h3>
           <ul>
             {volunteer.map((item) => {
               return (
                 <li>
-                  <p className='volunteer'>{item.name}</p>
-                  <p>{item.where}</p>
-                  <p>{item.description}</p>
+                  <h4 className='volunteer'>{item.name}</h4>
+                  <p className='volunteer_where'>{item.where}</p>
+                  <p className='volunteer_ desc'>{item.description}</p>
                 </li>
               );
             })}
