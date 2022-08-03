@@ -5,7 +5,7 @@ const Experience = ({ experience }) => {
   return (
     <div>
       <div className="experience">
-      <h2>Experience</h2>
+      <h2>Experiencia</h2>
         {experience.map((item) => {
           return (
             <div key={JSON.stringify(item)}>

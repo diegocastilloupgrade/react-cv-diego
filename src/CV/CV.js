@@ -5,68 +5,154 @@ export const CV = {
     city: "Valladolid / Valladolid",
     email: "diego@diegocastillo.es",
     birthDate: "03/11/1978",
-    phone: "(+12) 555123123",
-    image: "https://media-exp1.licdn.com/dms/image/C4E03AQGYnWJwnCbdoQ/profile-displayphoto-shrink_100_100/0/1613748977147?e=1661385600&v=beta&t=Ec79nduofPKvII4m3qWkcVqHndJKfxE79KqwVUB1xGs",
+    phone: "(+12) 3456789210",
+    image: "https://media-exp1.licdn.com/dms/image/C4E03AQE5wt7AA-U0Cg/profile-displayphoto-shrink_400_400/0/1658343684839?e=1665014400&v=beta&t=RcVoXZSeAFvnkTY98tHVrS2oKApl0bvGDbSwSjTdQ04",
+    bckimage: "https://media-exp1.licdn.com/dms/image/C4E16AQEdI3wBOPwqWw/profile-displaybackgroundimage-shrink_350_1400/0/1656953864896?e=1665014400&v=beta&t=YSzfPI5yT-vzcQu_wXPjVE4v-YxhVBf0GpyOzkpDznk",
     gitHub: "https://github.com/diegocastilloupgrade",
     aboutMe: [
       {
         info: "Vallisoletano de nacimiento, y Madrileño de adopción formado originalmente en Electrónica Industrial pero de vocación en el sector digital.",
       },
       {
-        info: "Apasionado del desarrollo de soluciones digitales, Experiencia de Usuario y Diseño de Interacción. Disfruto observando cuando las personas interaccionan con sistemas tecnológicos y me alegro cuando hacen suya la tecnología.",
+        info: "Tras más de 10 años desarrollando web en HTML y CSS complementé mi carrera como diseñador en UX/UI, rol que he desempeñado durante 4 años.",
       },
       {
-        info: "Y cuando puedo, hago fotografías.",
+        info: "Mi última etapa laboral ha estado vinculada a la gestión de equipos y terminada esta y tras actualizar mis conocimientos técnicos en el Bootcamp de FullStack mi deseo es el de enfocar mi carrera en el desarrollo front. Aquí, he reforzado mis conocimientos con HTML, CSS, SASS, JS, Angular, React, PHP, NodeJs, GIT.",
       },
+      {
+        info: "Todo este recorrido ha permitido que pueda participar en equipos ágiles (SCRUM, KANBAN), empresas de diferentes tamaños (desde Startups hasta multinacionales), desempeñando diversos roles presentes en todo el proceso de desarrollo y así tener una visión holística del producto digital, desde la necesidad de la que surge su desarrollo hasta su puesta en producción."
+      }
     ],
   },
   education: [
     {
-      name: "Master in physics",
-      date: "1985",
-      where: "MIT",
+      name: "Bootcamp Full Stack",
+      date: "2022",
+      where: "Upgrade Hub",
+      city: "Madrid",
+      desc: "Bootcamp de Full Stack Developer: HTML, CSS, JS, MongoDB, SQL, NodeJs Angular, React y PHP (Symfony).",
     },
     {
-      name: "Aeronautical Engineering",
-      date: "1995",
-      where: "ATI Vaughn College",
+      name: "CFGS",
+      date: "2022",
+      where: "I.E.S. Ribera de Castilla",
+      city: "Valladolid",
+      desc: "Ciclo Formativo de Grado superior en desarrollo de aplicaciones web (cursando actualmente)."
     },
     {
-      name: "Weapons Engineer",
-      date: "1998",
-      where: "Firearm Collegue, Queens",
+      name: "Master en Usabilidad y Experiencia de Usuario",
+      date: "2015",
+      where: "Kschool",
+      city: "Madrid",
+      desc: "170h. Programa formativo en Diseño de Experiencia de Usuario y Diseño de Interfaz de usuario."
     },
+    {
+      name: "Programa profesional en Google Analytics",
+      date: "2015",
+      where: "Kschool",
+      city: "Madrid",
+      desc: "170h. Programa formativo en Diseño de Experiencia de Usuario y Diseño de Interfaz de usuario."
+    },
+    {
+      name: "Google Tag Manager",
+      date: "2014",
+      where: "Kschool",
+      city: "Madrid",
+      desc: "16h. Curso avanzado en Google Tag Manager “Mide y Vencerás"
+    },
+    {
+      name: "Master profesional en postproducción digital de imagen",
+      date: "2013",
+      where: "Workshop Experience",
+      city: "Madrid",
+      desc: "160h. Programa avanzado enfocado en la postproducción digital de la imagen."
+    },
+    {
+      name: "Master en Fotografía profesional",
+      date: "2012",
+      where: "Workshop Experience",
+      city: "Madrid",
+      desc: "160h. Programa formativo de fotografía profesional.",
+    },
+    { name: "Higher National Diploma en diseño gráfico y multimedia",
+      date: "2004",
+      where: "E.S.I. Valladolid",
+      city: "Valladolid",
+      desc: "Carrera de diseño gráfico y multimedia"}
   ],
   experience: [
     {
-      name: "Consultant",
-      date: "01/01/2013 – Nowadays",
-      where: "S.H.I.E.L.D",
+      where: "Roams",
+      name: "Project Manager",
+      date: "2021 – 2022",
+      companylogo: "",
+      link: "",
       description:
-        "It builds the helicarriers used by S.H.I.E.L.D. It produces the Quinjets used by the Avengers.",
+        "Project Manager del equipo de desarrollo y producto.",
     },
     {
-      name: "CEO",
-      date: "01/01/2000 – 28/02/2012",
-      where: "Stark Industries",
+      where: "Madison",
+      name: "UX/UI",
+      date: "2017 – 2021",
+      companylogo: "",
+      link: "",
       description:
-        "Manage the company, which is a multi-billion dollar multinational corporation that develops and manufactures advanced weapon and defense technologies. The company manufactures the armor worn by Iron Man and War Machine.",
+        "Diseñador UX/UI en el departamento de Market Research.",
     },
+    {
+      where: "Universidad de Valladolid y Burgos",
+      name: "Tutor",
+      date: "2018 – 2020",
+      companylogo: "",
+      link: "http://emprendimientoinnovadorcyl.com/programas-anteriores/",
+      description:
+        "Tutor en el Programa de apoyo al emprendimiento innovador 2018-2020 para la Universidad de Valladolid, Soria y Burgos.",
+    },
+    {
+      where: "Freelance",
+      name:"Desarrollador y diseñador UX/UI",
+      date: "2016 - 2020",
+      companylogo: "",
+      link: "https://diegocastillo.es/portfolio",
+      description: "Desarrollador front end, diseñador UX/UI y gráfico."
+    },
+    {
+      where: "Wolters Kluwer España",
+      name: "Desarrollador frontend",
+      date: "2007 - 2016",
+      companylogo: "",
+      link: "",
+      description: "Desarrollador frontend en el área de desarrollo de software editorial."
+    },
+    {
+      where: "Cosmomedia",
+      name: "Desarrollador y diseñador",
+      date: "2003 - 2007",
+      companylogo: "",
+      link: "",
+      description: "Desarrollador Frontend y diseñador gráfico y editorial"
+    }
+
   ],
   languages: {
-    language: "English",
-    wrlevel: "Native",
-    splevel: "Native",
+    language: "Castellano",
+    wrlevel: "Nativo",
+    splevel: "Nativo",
   },
   habilities: [
-    "Robotics",
-    "Robot Programming",
-    "Physics",
-    "Weaponery",
-    "Engineer",
-    "Money",
-    "Dating",
-    "Saving the world",
+    "HTML",
+    "SCSS",
+    "JS",
+    "Angular",
+    "React",
+    "NodeJs",
+    "MongoDB",
+    "SQL",
+    "GIT",
+    "SEO",
+    "SCRUM",
+    "KANBAN",
+    "OKR"
   ],
   volunteer: [
     {
