@@ -1,0 +1,31 @@
+.experience {
+  padding: 1rem;
+  .experiencecard {
+    display: flex;
+    border-bottom: 1px solid #0001;
+    padding: 1rem 0;
+    img {
+      width: 48px;
+      height: 48px;
+    }
+    .experiencecarddata {
+      h3 {
+        font-size: 1rem;
+        margin: 0 1rem;
+      }
+      .where {
+        font-size: 0.8rem;
+        margin: 0 1rem;
+      }
+      .date {
+        font-size: 0.8rem;
+        margin: 0 1rem;
+        color: #0009;
+      }
+      .desc {
+        font-size: 0.8rem;
+        margin: 0 1rem;
+      }
+    }
+  }
+}

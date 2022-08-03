@@ -86,8 +86,8 @@ export const CV = {
       where: "Roams",
       name: "Project Manager",
       date: "2021 – 2022",
-      companylogo: "",
-      link: "",
+      companylogo: "logo_roams.jpeg",
+      link: "https://www.roams.es",
       description:
         "Project Manager del equipo de desarrollo y producto.",
     },
@@ -95,7 +95,7 @@ export const CV = {
       where: "Madison",
       name: "UX/UI",
       date: "2017 – 2021",
-      companylogo: "",
+      companylogo: "logo_madison.jpeg",
       link: "",
       description:
         "Diseñador UX/UI en el departamento de Market Research.",
@@ -104,7 +104,7 @@ export const CV = {
       where: "Universidad de Valladolid y Burgos",
       name: "Tutor",
       date: "2018 – 2020",
-      companylogo: "",
+      companylogo: "logo_uva.jpeg",
       link: "http://emprendimientoinnovadorcyl.com/programas-anteriores/",
       description:
         "Tutor en el Programa de apoyo al emprendimiento innovador 2018-2020 para la Universidad de Valladolid, Soria y Burgos.",
@@ -113,7 +113,6 @@ export const CV = {
       where: "Freelance",
       name:"Desarrollador y diseñador UX/UI",
       date: "2016 - 2020",
-      companylogo: "",
       link: "https://diegocastillo.es/portfolio",
       description: "Desarrollador front end, diseñador UX/UI y gráfico."
     },
@@ -121,7 +120,7 @@ export const CV = {
       where: "Wolters Kluwer España",
       name: "Desarrollador frontend",
       date: "2007 - 2016",
-      companylogo: "",
+      companylogo: "logo_wolters.jpeg",
       link: "",
       description: "Desarrollador frontend en el área de desarrollo de software editorial."
     },
@@ -129,7 +128,7 @@ export const CV = {
       where: "Cosmomedia",
       name: "Desarrollador y diseñador",
       date: "2003 - 2007",
-      companylogo: "",
+      companylogo: "logo_cosmomedia.jpeg",
       link: "",
       description: "Desarrollador Frontend y diseñador gráfico y editorial"
     }
