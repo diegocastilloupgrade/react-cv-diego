@@ -11,7 +11,7 @@ const Education = ({ education }) => {
         {education.map((item) => {
           return (
             <li className='educationcard' key={JSON.stringify(item)}>
-              {item.deducationlogo ? (
+              {item.educationlogo ? (
                 <img
                   src={'../../assets/img/' + item.educationlogo}
                   alt='logo empresa'

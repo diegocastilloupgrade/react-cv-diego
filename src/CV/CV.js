@@ -32,7 +32,7 @@ export const CV = {
       name: 'Bootcamp Full Stack',
       date: '2022',
       where: 'Upgrade Hub',
-      educationlogo: '',
+      educationlogo: 'logo_upgrade.jpeg',
       city: 'Madrid',
       desc: 'Bootcamp de Full Stack Developer: HTML, CSS, JS, MongoDB, SQL, NodeJs Angular, React y PHP (Symfony).',
     },
@@ -41,7 +41,7 @@ export const CV = {
       date: '2022',
       where: 'I.E.S. Ribera de Castilla',
       city: 'Valladolid',
-      educationlogo: '',
+      educationlogo: 'logo_riberadecastilla.jpeg',
       desc: 'Ciclo Formativo de Grado superior en desarrollo de aplicaciones web (cursando actualmente).',
     },
     {
@@ -49,7 +49,7 @@ export const CV = {
       date: '2015',
       where: 'Kschool',
       city: 'Madrid',
-      educationlogo: '',
+      educationlogo: 'logo_kschool.jpeg',
       desc: '170h. Programa formativo en Diseño de Experiencia de Usuario y Diseño de Interfaz de usuario.',
     },
     {
@@ -57,7 +57,7 @@ export const CV = {
       date: '2015',
       where: 'Kschool',
       city: 'Madrid',
-      educationlogo: '',
+      educationlogo: 'logo_kschool.jpeg',
       desc: '170h. Programa formativo en Diseño de Experiencia de Usuario y Diseño de Interfaz de usuario.',
     },
     {
@@ -65,7 +65,7 @@ export const CV = {
       date: '2014',
       where: 'Kschool',
       city: 'Madrid',
-      educationlogo: '',
+      educationlogo: 'logo_kschool.jpeg',
       desc: '16h. Curso avanzado en Google Tag Manager “Mide y Vencerás',
     },
     {
@@ -73,7 +73,7 @@ export const CV = {
       date: '2013',
       where: 'Workshop Experience',
       city: 'Madrid',
-      educationlogo: '',
+      educationlogo: 'logo_workshop-experience.jpeg',
       desc: '160h. Programa avanzado enfocado en la postproducción digital de la imagen.',
     },
     {
@@ -81,7 +81,7 @@ export const CV = {
       date: '2012',
       where: 'Workshop Experience',
       city: 'Madrid',
-      educationlogo: '',
+      educationlogo: 'logo_workshop-experience.jpeg',
       desc: '160h. Programa formativo de fotografía profesional.',
     },
     {
