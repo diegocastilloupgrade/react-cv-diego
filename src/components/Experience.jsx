@@ -1,5 +1,5 @@
 import React from 'react';
-import './Experience.scss';
+import './ExperienceEducation.scss';
 
 const Experience = ({ experience }) => {
   return (
@@ -10,9 +10,17 @@ const Experience = ({ experience }) => {
           {experience.map((item) => {
             return (
               <li className='experiencecard' key={JSON.stringify(item)}>
-                { item.companylogo ? <img src={'../../assets/img/' + item.companylogo} alt="logo empresa"/> :
-                <img src={'../../assets/img/defaultimage2.svg'} alt="empresa sin logo"/> 
-                }
+                {item.companylogo ? (
+                  <img
+                    src={'../../assets/img/' + item.companylogo}
+                    alt='logo empresa'
+                  />
+                ) : (
+                  <img
+                    src={'../../assets/img/defaultimage2.svg'}
+                    alt='empresa sin logo'
+                  />
+                )}
                 <div className='experiencecarddata'>
                   <h3 className='name'>{item.name}</h3>
                   <p className='where'>{item.where}</p>

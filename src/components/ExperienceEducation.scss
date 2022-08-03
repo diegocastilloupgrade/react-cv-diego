@@ -1,6 +1,7 @@
-.experience {
+.experience,
+.education {
   padding: 1rem;
-  .experiencecard {
+  .experiencecard, .educationcard {
     display: flex;
     border-bottom: 1px solid #0001;
     padding: 1rem 0;
@@ -8,7 +9,8 @@
       width: 48px;
       height: 48px;
     }
-    .experiencecarddata {
+    .experiencecarddata,
+    .educationcarddata {
       h3 {
         font-size: 1rem;
         margin: 0 1rem;
@@ -21,6 +23,14 @@
         font-size: 0.8rem;
         margin: 0 1rem;
         color: #0009;
+      }
+      .desc {
+        font-size: 0.8rem;
+        margin: 0 1rem;
+      }
+      .city {
+        font-size: 0.8rem;
+        margin: 0 1rem;
       }
       .desc {
         font-size: 0.8rem;
