@@ -2,8 +2,50 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  .card {
+    h1 {
+      margin: 0 1.5rem;
+    }
+    .description {
+      font-size: 1rem;
+      margin: 0 1.5rem;
+    }
+    .city {
+      font-size: 0.8rem;
+      color: #0009;
+      margin: 0 1.5rem;
+    }
+    .bithDate {
+    }
+    .contactData {
+      display: flex;
+      .mail {
+        background-color: #0a66c2;
+        border-radius: 1rem;
+        a {
+          color: #fff;
+          padding: 0 1.6rem;
+          font-weight: bold;
+        }
+      }
+      .phone {
+        font-weight: bold;
+        color: #0a66c2;
+      }
+      .gitHub {
+        
+        border: solid 1px#0a66c2;
+        border-radius: 1rem;
+        a {
+          color: #0a66c2;
+          padding: 0 1.6rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
   .cardHeader {
-    background-image: url(https://media-exp1.licdn.com/dms/image/C5616AQFqxMdGq8IR8w/profile-displaybackgroundimage-shrink_200_800/0/1554106777586?e=1661385600&v=beta&t=q3gmxLITs7TofQ-L1cnZSZ47Ve4bQam9GaCv_hpqRS4);
+    background-image: url('../../public/assets/img/amstrad.jpeg');
     min-height: 200px;
     border-radius: 6px 6px 0 0;
     position: relative;
@@ -28,7 +70,7 @@
     z-index: 3;
     position: relative;
     object-fit: cover;
-    border:solid 5px white;
+    border: solid 5px white;
   }
 }
 

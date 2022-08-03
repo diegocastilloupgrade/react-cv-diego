@@ -5,6 +5,7 @@ export const CV = {
     city: "Valladolid / Valladolid",
     email: "diego@diegocastillo.es",
     birthDate: "03/11/1978",
+    description: "Front developer",
     phone: "(+12) 3456789210",
     image: "https://media-exp1.licdn.com/dms/image/C4E03AQE5wt7AA-U0Cg/profile-displayphoto-shrink_400_400/0/1658343684839?e=1665014400&v=beta&t=RcVoXZSeAFvnkTY98tHVrS2oKApl0bvGDbSwSjTdQ04",
     bckimage: "https://media-exp1.licdn.com/dms/image/C4E16AQEdI3wBOPwqWw/profile-displaybackgroundimage-shrink_350_1400/0/1656953864896?e=1665014400&v=beta&t=YSzfPI5yT-vzcQu_wXPjVE4v-YxhVBf0GpyOzkpDznk",
